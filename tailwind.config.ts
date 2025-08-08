@@ -61,7 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				earthy: {
+					brown: '#D4A574',
+					dark: '#8B4513',
+					cream: '#FFF8DC',
+					gray: '#2F462F',
+					light: '#FFFFFF'
 				}
+			},
+			fontFamily: {
+				'playfair': ['Playfair Display', 'serif'],
+				'source': ['Source Sans Pro', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
